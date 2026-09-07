@@ -40,4 +40,4 @@ SoftCart utilizes a **hybrid architecture**, leveraging both on-premises infrast
 
 * **Program:** [IBM Data Engineering Professional Certificate](https://www.coursera.org/learn/data-enginering-capstone-project) hosted on Coursera.
 * **Issued By:** IBM Skills Network.
-* **Verified Certificate:** [Link to Your Verified Coursera Certificate](https://coursera.org/verify/YOUR_CERTIFICATE_ID)
+* **Verified Certificate:** [Coursera Certificate](https://coursera.org/verify/YOUR_CERTIFICATE_ID)
