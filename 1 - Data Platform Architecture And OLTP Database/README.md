@@ -20,7 +20,7 @@ The primary objectives were to set up the sales transactional schema, import his
 ## Directory Structure
 
 ```text
-module-1-oltp-database/
+1 - Data Platform Architecture And OLTP Database/
 ├── README.md               # Module documentation & execution steps
 ├── datadump.sh             # Bash script to export data
 ├── oltp_setup.sql          # SQL DDL script to create database, schema & tables
@@ -133,7 +133,6 @@ chmod +wx datadump.sh
 ls -lh sales_data.sql
 head -n 20 sales_data.sql
 ```
-
 
 ---
 
