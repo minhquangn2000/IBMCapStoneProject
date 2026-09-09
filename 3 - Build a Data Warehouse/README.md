@@ -36,7 +36,7 @@ The primary objectives were to design a Star Schema Entity-Relationship Diagram 
 ```
 
 ---
-
+## Data Warehousing
 ### Step 0: Star Schema ERD Design
 Here is the sample data that the company sent me:
 
