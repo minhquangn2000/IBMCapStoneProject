@@ -141,3 +141,5 @@ head -n 20 sales_data.sql
 * **Why Indexing Matters for ETL:** Creating an index on `timestamp` drastically reduces full table scans when downstream Apache Airflow pipelines extract incremental sales batches, moving query complexity from $O(N)$ to $O(\log N)$.
 * **OLTP vs. OLAP Tradeoffs:** While MySQL excels at rapid write operations for incoming e-commerce orders, running complex aggregation queries on live transactional tables can cause lock contention. This reinforced why offloading transactional data to a dedicated PostgreSQL/Hadoop staging warehouse in later modules is critical.
 * **Storage Precision:** Using `DECIMAL(10,2)` instead of floating-point numbers (`FLOAT`/`DOUBLE`) for financial data prevents cumulative rounding errors during currency calculations and business reporting.
+
+ [Next Module -->](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/2%20-%20Querying%20Data%20in%20NoSQL%20Databases)

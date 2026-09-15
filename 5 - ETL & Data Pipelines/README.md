@@ -307,3 +307,5 @@ To monitor the DAG, use the GUI(Airflow Web UI):
 * **Decoupled Task Execution & File I/O:** Relying on physical disk files (.txt, .tar) to pass data between pipeline stages decouples system dependencies, but introduces I/O overhead. For higher-volume production pipelines, passing lightweight metadata via Airflow XComs or using object storage (S3/GCS) is preferred over local filesystem storage.
 
 * **Return Statement Discipline:** In Python, placement of control flow statements directly impacts logging and execution flow. Placing return statements strictly at the end of a function block guarantees that performance metrics, line counts, and completion statements are captured in Airflow logs.
+
+[<-- Previous Module](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/4%20-%20Data%20Analytics)  | [Next Module -->](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/6%20-%20Big%20Data%20Analytics%20with%20Spark)

@@ -213,3 +213,5 @@ Create a PostgreSQL Materialized View named `total_sales_per_country` to store a
 * **OLAP Operators (`GROUPING SETS`, `ROLLUP`, `CUBE`):** These PostgreSQL extensions eliminate the need to run multiple `UNION ALL` subqueries, computing multi-level summary totals in a single database scan.
 * **Materialized Views for High-Frequency Queries:** Creating the `total_sales_per_country` MQT pre-computes aggregate metrics on disk, removing query computation overhead during executive dashboard rendering.
 * **Schema Implementation Differences:** In the implementation of the PostgreSQL data warehouse, no `DimItem` dataset was provided in the source files, so the `DimItem` table is omitted from the loaded staging database.
+
+[<-- Previous Module](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/2%20-%20Querying%20Data%20in%20NoSQL%20Databases)  | [Next Module -->](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/4%20-%20Data%20Analytics)

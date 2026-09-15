@@ -181,3 +181,6 @@ Export designated attributes (_id, type, model) from the electronics collection 
 * **Flexible Schema Advantages:** Storing product catalog records in MongoDB allows distinct item categories (e.g., laptops vs. televisions) to hold unique attribute fields (`ram` and `hard disk` for laptops) within a single collection without storing redundant NULL attributes as required by relational SQL tables.
 * **Indexing Execution Strategy:** Creating an index on `{ type: 1 }` prevents full collection scans ($O(N)$) when processing query filters or pipeline stages, ensuring efficient lookup execution time ($O(\log N)$) during product searches.
 * **Aggregation Framework Power:** Leveraging native `$match` and `$group` aggregation stages processes metrics directly on the database node, eliminating the bandwidth overhead of transporting bulk documents to downstream application servers.
+
+
+[<-- Previous Module](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/1%20-%20Data%20Platform%20Architecture%20And%20OLTP%20Database)  | [Next Module -->](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/3%20-%20Build%20a%20Data%20Warehouse)

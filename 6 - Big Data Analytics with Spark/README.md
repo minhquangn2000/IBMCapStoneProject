@@ -102,3 +102,5 @@ predictions.select("year", "prediction").show()
 **Feature Vector Requirements:** `PySpark MLlib` transformers require numeric features to be structured as dense or sparse `Vector` objects via `VectorAssembler` rather than primitive types before passing them into downstream estimators.
 
 **Schema Inference vs. Explicit Contracts:** While `inferSchema=True` simplifies rapid prototyping, production big data pipelines should enforce explicit DDL schemas to prevent runtime failure modes caused by schema drift in raw log sources.
+
+[<-- Previous Module](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/5%20-%20ETL%20%26%20Data%20Pipelines) 

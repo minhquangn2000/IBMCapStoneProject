@@ -87,3 +87,5 @@ To verify data integrity, add a Table visualization to the canvas with dimension
 
 Here is the finished dashboard:
 ![SoftCart Data Platform Architecture](img/looker_studio_dashboard.png)
+
+[<-- Previous Module](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/3%20-%20Build%20a%20Data%20Warehouse)  | [Next Module -->](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/5%20-%20ETL%20%26%20Data%20Pipelines)
