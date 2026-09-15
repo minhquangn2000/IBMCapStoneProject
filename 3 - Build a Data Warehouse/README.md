@@ -56,7 +56,7 @@ From the sample data, I'm able to design a Star Schema for the warehouse by iden
 
 Then I proceed to use the ERD tool in PostgreSQL to make the ERD diagram:
 
-![SoftCart Data Platform Architecture](img/erd.png)
+![SoftCart Data Platform Architecture](img/erd.PNG)
 
 ---
 

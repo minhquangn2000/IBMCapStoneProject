@@ -38,13 +38,13 @@ module-4-data-analytics/
 4. Click `Create Dataset` to create a datasource called `ecommerce_ds`.
 5. Confirm that default aggregation for `price` is set to `SUM`.
 
-![SoftCart Data Platform Architecture](img/dataStudioLoadCSV.png)
+![SoftCart Data Platform Architecture](img/dataStudioLoadCSV.PNG)
 
 ---
 ### Step 2: Sample Table (First 10 Rows)
 To verify data integrity, add a Table visualization to the canvas with dimensions `day`, `month`, `quarter`, `year`, `category`, `item`, and metric `price`.
 
-![SoftCart Data Platform Architecture](img/ecommerceTop10.png)
+![SoftCart Data Platform Architecture](img/ecommerceTop10.PNG)
 
 ---
 
@@ -86,6 +86,6 @@ To verify data integrity, add a Table visualization to the canvas with dimension
 4. Feel free to adjust your layout. 
 
 Here is the finished dashboard:
-![SoftCart Data Platform Architecture](img/looker_studio_dashboard.png)
+![SoftCart Data Platform Architecture](img/looker_studio_dashboard.PNG)
 
 [<-- Previous Module](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/3%20-%20Build%20a%20Data%20Warehouse)  | [Next Module -->](https://github.com/minhquangn2000/IBMCapStoneProject/tree/main/5%20-%20ETL%20%26%20Data%20Pipelines)
